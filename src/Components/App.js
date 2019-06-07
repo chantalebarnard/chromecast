@@ -13,6 +13,7 @@ export default class App extends Component {
   }
 
   componentDidMount() {
+    console.log('Thank you so much for taking the time to look through this! I can be reached at hello@chantalecodes.com')
     this.generateCollection();
   }
 
@@ -25,6 +26,7 @@ export default class App extends Component {
   }
 
   render() {
+
     const { collection } = this.state;
     return (
       <div>
