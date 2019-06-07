@@ -1,0 +1,13 @@
+.clock-container {
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 75px;
+}
+
+.clock-component {
+  height: inherit;
+  display: flex;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
